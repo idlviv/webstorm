@@ -1,0 +1,10 @@
+<application>
+  <component name="TodoConfiguration">
+    <pattern pattern="\btodo\b.*" />
+    <pattern pattern="\bfixme\b.*" />
+    <pattern case-sensitive="true" pattern="\bMAKE\b.*" />
+    <filter name="id">
+      <pattern index="2" />
+    </filter>
+  </component>
+</application>
